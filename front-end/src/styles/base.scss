@@ -1,0 +1,12 @@
+@import './emqx-ui-variables.scss';
+
+.body {
+  padding: 40px 0;
+  .el-main {
+    padding: 0;
+  }
+}
+
+#page-content {
+  flex-grow: 1; 
+}
