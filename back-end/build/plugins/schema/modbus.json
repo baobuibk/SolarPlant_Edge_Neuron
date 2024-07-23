@@ -1,0 +1,355 @@
+{
+	"tag_regex": [
+		{
+			"type": 3,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 4,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 5,
+			"regex": "^[0-9]+![3-4][0-9]+(#BB|#BL|#LL|#LB|)$"
+		},
+		{
+			"type": 6,
+			"regex": "^[0-9]+![3-4][0-9]+(#BB|#BL|#LL|#LB|)$"
+		},
+		{
+			"type": 7,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 8,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 9,
+			"regex": "^[0-9]+![3-4][0-9]+(#BB|#BL|#LL|#LB|)$"
+		},
+		{
+			"type": 10,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 11,
+			"regex": "^[0-9]+!([0-1][0-9]+|[3-4][0-9]+\\.([0-9]|[0-1][0-5]))$"
+		},
+		{
+			"type": 13,
+			"regex": "^[0-9]+![3-4][0-9]+\\.[0-9]+(H|L|)$"
+		},
+		{
+			"type": 14,
+			"regex": "^[0-9]+![3-4][0-9]+\\.[0-9]+$"
+		}
+	],
+	"group_interval": 1000,
+	"link": {
+		"name": "Physical Link",
+		"name_zh": "Loại kết nối",
+		"description": "Serial or Ethernet",
+		"description_zh": "Serial hoặc Ethernet",
+		"attribute": "required",
+		"type": "map",
+		"default": 0,
+		"valid": {
+			"map": [
+				{
+					"key": "Serial",
+					"value": 0
+				},
+				{
+					"key": "Ethernet",
+					"value": 1
+				}
+			]
+		}
+	},
+	"timeout": {
+		"name": "Connection Timeout",
+		"name_zh": "Kết nối Timeout",
+		"description": "Connection timeout(ms)",
+		"description_zh": "Thời gian Timeout kết nối (ms)",
+		"attribute": "required",
+		"type": "int",
+		"default": 3000,
+		"valid": {
+			"min": 1000,
+			"max": 30000
+		}
+	},
+	"max_retries": {
+		"name": "Maximum Retry Times",
+		"name_zh": "Số lần thử lại tối đa",
+		"description": "The maximum number of retries after a failed attempt to send a read command",
+		"description_zh": "Số lần thử lại sau khi thất bại trong gửi Read CMD",
+		"attribute": "required",
+		"type": "int",
+		"default": 0,
+		"valid": {
+			"min": 0,
+			"max": 3
+		}
+	},
+	"retry_interval": {
+		"name": "Retry Interval",
+		"name_zh": "Chu kỳ thử lại",
+		"description": "Resend reading instruction interval(ms) after a failed attempt to send a read command",
+		"description_zh": "Chu kỳ gửi lại Read CMD nếu thất bại",
+		"attribute": "required",
+		"type": "int",
+		"default": 0,
+		"valid": {
+			"min": 0,
+			"max": 10000
+		}
+	},
+	"interval": {
+		"name": "Send Interval",
+		"name_zh": "Chu kỳ gửi",
+		"description": "Send reading instruction interval(ms)",
+		"description_zh": "Khoảng thời gian giữa các lệnh chỉ dẫn(ms)",
+		"attribute": "required",
+		"type": "int",
+		"default": 20,
+		"valid": {
+			"min": 0,
+			"max": 3000
+		}
+	},
+	"device": {
+		"name": "Serial Device",
+		"name_zh": "Thiết bị Serial",
+		"description": "Serial device path",
+		"description_zh": "Đường dẫn thiết bị Serial",
+		"attribute": "required",
+		"type": "string",
+		"condition": {
+			"field": "link",
+			"value": 0
+		},
+		"valid": {
+			"length": 30
+		}
+	},
+	"stop": {
+		"name": "Stop Bits",
+		"name_zh": "Stopbits",
+		"description": "Stop bits",
+		"description_zh": "Stopbits",
+		"attribute": "required",
+		"type": "map",
+		"default": 0,
+		"valid": {
+			"map": [
+				{
+					"key": "1",
+					"value": 0
+				},
+				{
+					"key": "2",
+					"value": 1
+				}
+			]
+		},
+		"condition": {
+			"field": "link",
+			"value": 0
+		}
+	},
+	"parity": {
+		"name": "Parity",
+		"name_zh": "Parity",
+		"description": "Parity",
+		"description_zh": "Parity",
+		"attribute": "required",
+		"type": "map",
+		"default": 0,
+		"valid": {
+			"map": [
+				{
+					"key": "none",
+					"value": 0
+				},
+				{
+					"key": "odd",
+					"value": 1
+				},
+				{
+					"key": "even",
+					"value": 2
+				},
+				{
+					"key": "mark",
+					"value": 3
+				},
+				{
+					"key": "space",
+					"value": 4
+				}
+			]
+		},
+		"condition": {
+			"field": "link",
+			"value": 0
+		}
+	},
+	"baud": {
+		"name": "Baud Rate",
+		"name_zh": "Baud Rate",
+		"description": "Baud rate",
+		"description_zh": "Baud Rate",
+		"attribute": "required",
+		"type": "map",
+		"default": 4,
+		"valid": {
+			"map": [
+				{
+					"key": "150",
+					"value": 12
+				},
+				{
+					"key": "200",
+					"value": 11
+				},
+				{
+					"key": "300",
+					"value": 10
+				},
+				{
+					"key": "600",
+					"value": 9
+				},
+				{
+					"key": "1200",
+					"value": 8
+				},
+				{
+					"key": "1800",
+					"value": 7
+				},
+				{
+					"key": "2400",
+					"value": 6
+				},
+				{
+					"key": "4800",
+					"value": 5
+				},
+				{
+					"key": "9600",
+					"value": 4
+				},
+				{
+					"key": "19200",
+					"value": 3
+				},
+				{
+					"key": "38400",
+					"value": 2
+				},
+				{
+					"key": "57600",
+					"value": 1
+				},
+				{
+					"key": "115200",
+					"value": 0
+				}
+			]
+		},
+		"condition": {
+			"field": "link",
+			"value": 0
+		}
+	},
+	"data": {
+		"name": "Data Bits",
+		"name_zh": "Data Bits",
+		"description": "Data bits",
+		"description_zh": "Data Bits",
+		"attribute": "required",
+		"type": "map",
+		"default": 3,
+		"valid": {
+			"map": [
+				{
+					"key": "5",
+					"value": 0
+				},
+				{
+					"key": "6",
+					"value": 1
+				},
+				{
+					"key": "7",
+					"value": 2
+				},
+				{
+					"key": "8",
+					"value": 3
+				}
+			]
+		},
+		"condition": {
+			"field": "link",
+			"value": 0
+		}
+	},
+	"host": {
+		"name": "IP Address",
+		"name_zh": "Địa chỉ IP",
+		"description": "Local IP in server mode, remote device IP in client mode",
+		"description_zh": "Local IP ở Chế độ Server, Remote IP ở chế độ Client",
+		"attribute": "required",
+		"type": "string",
+		"condition": {
+			"field": "link",
+			"value": 1
+		}
+	},
+	"port": {
+		"name": "Port",
+		"name_zh": "Port",
+		"description": "Local port in server mode, remote device port in client mode",
+		"description_zh": "Local port ở Chế độ Server, Remote port ở chế độ Client",
+		"attribute": "required",
+		"type": "int",
+		"default": 502,
+		"valid": {
+			"min": 1,
+			"max": 65535
+		},
+		"condition": {
+			"field": "link",
+			"value": 1
+		}
+	},
+	"connection_mode": {
+		"name": "Connection Mode",
+		"name_zh": "Kiểu kết nối",
+		"description": "Brain as the client, or as the server",
+		"description_zh": "Brain Server hoặc Brain Client",
+		"attribute": "required",
+		"type": "map",
+		"default": 0,
+		"valid": {
+			"map": [
+				{
+					"key": "Client",
+					"value": 0
+				},
+				{
+					"key": "Server",
+					"value": 1
+				}
+			]
+		},
+		"condition": {
+			"field": "link",
+			"value": 1
+		}
+	}
+}

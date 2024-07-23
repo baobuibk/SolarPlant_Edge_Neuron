@@ -1,0 +1,7 @@
+2024-02-15 00:21:45 [NOTICE] file_plugin.c:89 initialize `zc` plugin success
+2024-02-15 00:21:47 [NOTICE] file_plugin.c:108 start `zc` plugin success
+2024-02-23 01:44:17 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-02-23 01:44:17 [ERROR] mqtt_config.c:267 parsing setting fail, key: `client-id`
+2024-02-23 01:44:17 [ERROR] mqtt_plugin.c:234 neu_mqtt_config_parse fail
+2024-05-16 13:58:10 [NOTICE] modbus_tcp.c:110 zc init success
+2024-05-16 13:58:10 [ERROR] modbus_tcp.c:167 config: {"params":{"file_length":512}}, decode error: port

@@ -1,0 +1,94 @@
+{
+  "format": {
+    "name": "Upload Format",
+    "name_zh": "上报数据格式",
+    "description": "JSON format of the data reported. In values-format, data are split into `values` and `errors` sub objects. In tags-format, tag data are put in a single array.",
+    "description_zh": "上报数据的 JSON 格式。在 values-format 格式中，数据被分成 `values` 和 `errors` 的子对象。在 tags-format 格式中，数据被放在一个数组中。",
+    "attribute": "required",
+    "type": "map",
+    "default": 0,
+    "valid": {
+      "map": [
+        {
+          "key": "values-format",
+          "value": 0
+        },
+        {
+          "key": "tags-format",
+          "value": 1
+        }
+      ]
+    }
+  },
+  "url": {
+    "name": "Server URL",
+    "name_zh": "服务器 URL",
+    "description": "Websocket server url. Example: 'ws://localhost:8000', 'wss://example.io'",
+    "description_zh": "Websocket 服务器 url。例如，'ws://localhost:8000', 'wss://example.io",
+    "attribute": "required",
+    "type": "string",
+    "valid": {
+      "regex": "^(ws|wss)://"
+    }
+  },
+  "ca": {
+    "name": "CA",
+    "name_zh": "CA 证书",
+    "description": "CA certificate which signs the server certificate",
+    "description_zh": "签发服务器证书的 CA 证书",
+    "attribute": "optional",
+    "type": "file",
+    "condition": {
+      "field": "url",
+      "regex": "^wss://"
+    },
+    "valid": {
+      "length": 81960
+    }
+  },
+  "cert": {
+    "name": "Client Cert",
+    "name_zh": "客户端证书",
+    "description": "Client x509 certificate when using two way authentication",
+    "description_zh": "使用双向认证时，客户端的 x509 证书",
+    "attribute": "optional",
+    "type": "file",
+    "condition": {
+      "field": "url",
+      "regex": "^wss://"
+    },
+    "valid": {
+      "length": 81960
+    }
+  },
+  "key": {
+    "name": "Client Private Key",
+    "name_zh": "客户端私钥",
+    "description": "Client private key when using two way authentication",
+    "description_zh": "使用双向认证时，客户端的私钥",
+    "attribute": "optional",
+    "type": "file",
+    "condition": {
+      "field": "url",
+      "regex": "^wss://"
+    },
+    "valid": {
+      "length": 81960
+    }
+  },
+  "keypass": {
+    "name": "Client Private Key Password",
+    "name_zh": "客户端私钥密码",
+    "description": "Client private key password when using two way authentication with an encrypted client private key",
+    "description_zh": "使用加密的客户端私钥进行双向认证时，客户端私钥的密码",
+    "attribute": "optional",
+    "type": "string",
+    "condition": {
+      "field": "url",
+      "regex": "^wss://"
+    },
+    "valid": {
+      "length": 256
+    }
+  }
+}

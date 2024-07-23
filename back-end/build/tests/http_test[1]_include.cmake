@@ -1,0 +1,5 @@
+if(EXISTS "/home/ulrich/neurongithub/neuron/build/tests/http_test[1]_tests.cmake")
+  include("/home/ulrich/neurongithub/neuron/build/tests/http_test[1]_tests.cmake")
+else()
+  add_test(http_test_NOT_BUILT http_test_NOT_BUILT)
+endif()

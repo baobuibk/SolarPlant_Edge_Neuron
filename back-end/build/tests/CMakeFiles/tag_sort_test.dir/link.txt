@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -g -fsanitize=address CMakeFiles/tag_sort_test.dir/tag_sort_test.cc.o -o tag_sort_test   -L/usr/local/lib  -Wl,-rpath,./:/usr/local/lib:/home/ulrich/neurongithub/neuron/build ../libneuron-base.so -lgtest_main -lgtest -Wl,-Bstatic -lssl -lcrypto -Wl,-Bdynamic -lnng -lzlog -ljansson -ljwt -lmbedtls -lmbedx509 -lmbedcrypto 

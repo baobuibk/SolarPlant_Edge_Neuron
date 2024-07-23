@@ -1,0 +1,5 @@
+add_test( JwtTest.SetJwt /home/ulrich/neurongithub/neuron/build/tests/jwt_test [==[--gtest_filter=JwtTest.SetJwt]==] --gtest_also_run_disabled_tests)
+set_tests_properties( JwtTest.SetJwt PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( JwtTest.JwtValidate /home/ulrich/neurongithub/neuron/build/tests/jwt_test [==[--gtest_filter=JwtTest.JwtValidate]==] --gtest_also_run_disabled_tests)
+set_tests_properties( JwtTest.JwtValidate PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( jwt_test_TESTS JwtTest.SetJwt JwtTest.JwtValidate)

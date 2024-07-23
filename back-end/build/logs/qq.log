@@ -1,0 +1,11 @@
+2024-02-15 00:17:36 [NOTICE] file_plugin.c:89 initialize `qq` plugin success
+2024-02-15 00:17:38 [NOTICE] file_plugin.c:108 start `qq` plugin success
+2024-02-15 00:18:49 [NOTICE] file_plugin.c:152 validate tag success, name:shiba, address:hola.txt, type:0 
+2024-02-15 00:19:35 [NOTICE] file_plugin.c:89 initialize `qq` plugin success
+2024-02-15 00:19:39 [NOTICE] file_plugin.c:108 start `qq` plugin success
+2024-02-23 00:26:24 [NOTICE] modbus_tcp.c:110 qq init success
+2024-02-23 00:26:24 [ERROR] modbus_tcp.c:167 config: {"params":{"file_length":512}}, decode error: port
+2024-02-23 01:21:29 [NOTICE] modbus_rtu.c:110 qq init success
+2024-02-23 01:21:29 [ERROR] modbus_rtu.c:173 config: {"params":{"file_length":512}}, decode link & timeout error: link
+2024-02-23 01:21:34 [NOTICE] modbus_rtu.c:224 config: device: /dev/, baud: 4, data: 3, parity: 0, stop: 0
+2024-02-23 01:21:34 [NOTICE] modbus_rtu.c:135 qq start success

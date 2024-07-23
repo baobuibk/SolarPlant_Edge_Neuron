@@ -1,0 +1,3 @@
+2024-02-15 00:29:36 [NOTICE] file_plugin.c:89 initialize `qqz1` plugin success
+2024-02-15 00:29:44 [NOTICE] file_plugin.c:108 start `qqz1` plugin success
+2024-02-15 00:30:09 [NOTICE] file_plugin.c:152 validate tag success, name:zc, address:hola.txt, type:0 

@@ -1,0 +1,5 @@
+if(EXISTS "/home/ulrich/neurongithub/neuron/build/tests/base64_test[1]_tests.cmake")
+  include("/home/ulrich/neurongithub/neuron/build/tests/base64_test[1]_tests.cmake")
+else()
+  add_test(base64_test_NOT_BUILT base64_test_NOT_BUILT)
+endif()

@@ -1,0 +1,169 @@
+{
+  "client-id": {
+    "name": "Client ID",
+    "name_zh": "Client ID",
+    "description": "MQTT client ID",
+    "description_zh": "MQTT client ID",
+    "type": "string",
+    "attribute": "required",
+    "default": "brainiot_monitor_${random_str}",
+    "valid": {
+      "length": 255
+    }
+  },
+  "event-topic-prefix": {
+    "name": "Event Topic Prefix",
+    "name_zh": "Tiền tố Topic",
+    "description": "Prefix of the topics to which publish event messages.",
+    "description_zh": "Tiền tố của Topic Publish",
+    "type": "string",
+    "attribute": "required",
+    "default": "/brainiot/{client-id}",
+    "valid": {
+      "length": 255
+    }
+  },
+  "heartbeat-interval": {
+    "name": "Heartbeat Interval",
+    "name_zh": "Chu kì nhịp",
+    "description": "Interval in seconds between two heartbeat messages. Setting to zero will disable heartbeat monitoring.(seconds)",
+    "description_zh": "Chu kỳ đơn vị (s) giữa 2 nhịp tin nhắn. Cài đặt 0 để vô hiệu Theo dõi nhịp",
+    "attribute": "required",
+    "type": "int",
+    "default": 0,
+    "valid": {
+      "min": 0
+    }
+  },
+  "heartbeat-topic": {
+    "name": "Heartbeat Topic",
+    "name_zh": "Topic nhận tin",
+    "description": "Topic to which publish heartbeat messages.",
+    "description_zh": "Topic đƯợc nhận tin",
+    "type": "string",
+    "attribute": "required",
+    "default": "/brainiot/${node-name}/heartbeat",
+    "valid": {
+      "length": 255
+    }
+  },
+  "host": {
+    "name": "Broker Host",
+    "name_zh": "Máy chủ Broker",
+    "description": "MQTT broker host",
+    "description_zh": "MQTT máy chủ broker",
+    "attribute": "required",
+    "type": "string",
+    "default": "broker.emqx.io",
+    "valid": {
+      "length": 255
+    }
+  },
+  "port": {
+    "name": "Broker Port",
+    "name_zh": "Broker Port",
+    "description": "MQTT broker port",
+    "description_zh": "MQTT broker port",
+    "attribute": "required",
+    "type": "int",
+    "default": 1883,
+    "valid": {
+      "min": 1024,
+      "max": 65535
+    }
+  },
+  "username": {
+    "name": "Username",
+    "name_zh": "Tên người dùng",
+    "description": "MQTT user name",
+    "description_zh": "MQTT tên người dùng",
+    "attribute": "optional",
+    "type": "string",
+    "default": "",
+    "valid": {
+      "length": 255
+    }
+  },
+  "password": {
+    "name": "Password",
+    "name_zh": "Mật khẩU",
+    "description": "MQTT user password",
+    "description_zh": "MQTT mật khẩu",
+    "attribute": "optional",
+    "type": "string",
+    "default": "",
+    "valid": {
+      "length": 255
+    }
+  },
+  "ssl": {
+    "name": "SSL",
+    "name_zh": "SSL",
+    "description": "Enable SSL connection",
+    "description_zh": "Bật duyệt SSL",
+    "attribute": "optional",
+    "type": "bool",
+    "default": false,
+    "valid": {}
+  },
+  "ca": {
+    "name": "CA",
+    "name_zh": "Chứng chỉ CA",
+    "description": "CA certificate which signs the server certificate",
+    "description_zh": "Chứng chỉ CA cho kết nối Server",
+    "attribute": "optional",
+    "type": "file",
+    "condition": {
+      "field": "ssl",
+      "value": true
+    },
+    "valid": {
+      "length": 81960
+    }
+  },
+  "cert": {
+    "name": "Client Cert",
+    "name_zh": "Chứng chỉ máy khách",
+    "description": "Client x509 certificate when using two way authentication",
+    "description_zh": "Chứng chỉ máy khách kết nối 2 chiều",
+    "attribute": "optional",
+    "type": "file",
+    "condition": {
+      "field": "ssl",
+      "value": true
+    },
+    "valid": {
+      "length": 81960
+    }
+  },
+  "key": {
+    "name": "Client Private Key",
+    "name_zh": "Client Key",
+    "description": "Client private key when using two way authentication",
+    "description_zh": "Client Key khi sử dụng bảo mật 2 chiều",
+    "attribute": "optional",
+    "type": "file",
+    "condition": {
+      "field": "ssl",
+      "value": true
+    },
+    "valid": {
+      "length": 81960
+    }
+  },
+  "keypass": {
+    "name": "Client Private Key Password",
+    "name_zh": "Mật khẩu mã hoá Client Key",
+    "description": "Client private key password when using two way authentication with an encrypted client private key",
+    "description_zh": "Mật khẩu mã hoá cho Client Key bảo mật 2 chiều",
+    "attribute": "optional",
+    "type": "string",
+    "condition": {
+      "field": "ssl",
+      "value": true
+    },
+    "valid": {
+      "length": 256
+    }
+  }
+}

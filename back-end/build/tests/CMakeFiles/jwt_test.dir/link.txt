@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -g -fsanitize=address CMakeFiles/jwt_test.dir/jwt_test.cc.o -o jwt_test   -L/usr/local/lib  -Wl,-rpath,./:/usr/local/lib:/home/ulrich/neurongithub/neuron/build ../libneuron-base.so -lgtest_main -lgtest -ljansson -lssl -lcrypto -ljwt -lzlog -Wl,-Bstatic -lssl -lcrypto -Wl,-Bdynamic -lnng -lmbedtls -lmbedx509 -lmbedcrypto -ljansson -ljwt -lzlog 

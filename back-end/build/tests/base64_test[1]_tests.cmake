@@ -1,0 +1,5 @@
+add_test( Base64Test.neu_encode64_test /home/ulrich/neurongithub/neuron/build/tests/base64_test [==[--gtest_filter=Base64Test.neu_encode64_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Base64Test.neu_encode64_test PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( Base64Test.neu_decode64_test /home/ulrich/neurongithub/neuron/build/tests/base64_test [==[--gtest_filter=Base64Test.neu_decode64_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties( Base64Test.neu_decode64_test PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( base64_test_TESTS Base64Test.neu_encode64_test Base64Test.neu_decode64_test)

@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wall -g -fsanitize=address CMakeFiles/json_test.dir/json_test.cc.o -o json_test   -L/usr/local/lib  -Wl,-rpath,./:/usr/local/lib:/home/ulrich/neurongithub/neuron/build ../libneuron-base.so -lgtest_main -lgtest -lpthread -ljansson -Wl,-Bstatic -lssl -lcrypto -Wl,-Bdynamic -lnng -lzlog -ljwt -lmbedtls -lmbedx509 -lmbedcrypto -ljansson 

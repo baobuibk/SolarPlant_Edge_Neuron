@@ -1,0 +1,7 @@
+add_test( TagSortTest.SortSimple /home/ulrich/neurongithub/neuron/build/tests/tag_sort_test [==[--gtest_filter=TagSortTest.SortSimple]==] --gtest_also_run_disabled_tests)
+set_tests_properties( TagSortTest.SortSimple PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( TagSortTest.SortDup /home/ulrich/neurongithub/neuron/build/tests/tag_sort_test [==[--gtest_filter=TagSortTest.SortDup]==] --gtest_also_run_disabled_tests)
+set_tests_properties( TagSortTest.SortDup PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( TagSortTest.SortDiff /home/ulrich/neurongithub/neuron/build/tests/tag_sort_test [==[--gtest_filter=TagSortTest.SortDiff]==] --gtest_also_run_disabled_tests)
+set_tests_properties( TagSortTest.SortDiff PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( tag_sort_test_TESTS TagSortTest.SortSimple TagSortTest.SortDup TagSortTest.SortDiff)

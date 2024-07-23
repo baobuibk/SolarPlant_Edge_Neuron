@@ -1,0 +1,5 @@
+if(EXISTS "/home/ulrich/neurongithub/neuron/build/tests/jwt_test[1]_tests.cmake")
+  include("/home/ulrich/neurongithub/neuron/build/tests/jwt_test[1]_tests.cmake")
+else()
+  add_test(jwt_test_NOT_BUILT jwt_test_NOT_BUILT)
+endif()

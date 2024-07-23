@@ -1,0 +1,492 @@
+[
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/base/tag.c.o -c /home/ulrich/neurongithub/neuron/src/base/tag.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/base/tag.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/base/neu_plugin_common.c.o -c /home/ulrich/neurongithub/neuron/src/base/neu_plugin_common.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/base/neu_plugin_common.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/base/tag_sort.c.o -c /home/ulrich/neurongithub/neuron/src/base/tag_sort.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/base/tag_sort.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/base/group.c.o -c /home/ulrich/neurongithub/neuron/src/base/group.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/base/group.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/base/metrics.c.o -c /home/ulrich/neurongithub/neuron/src/base/metrics.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/base/metrics.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/base/template.c.o -c /home/ulrich/neurongithub/neuron/src/base/template.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/base/template.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/connection/connection.c.o -c /home/ulrich/neurongithub/neuron/src/connection/connection.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/connection/connection.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/connection/connection_eth.c.o -c /home/ulrich/neurongithub/neuron/src/connection/connection_eth.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/connection/connection_eth.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/connection/mqtt_client.c.o -c /home/ulrich/neurongithub/neuron/src/connection/mqtt_client.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/connection/mqtt_client.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/event/event_linux.c.o -c /home/ulrich/neurongithub/neuron/src/event/event_linux.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/event/event_linux.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/event/event_unix.c.o -c /home/ulrich/neurongithub/neuron/src/event/event_unix.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/event/event_unix.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/asprintf.c.o -c /home/ulrich/neurongithub/neuron/src/utils/asprintf.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/asprintf.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/json.c.o -c /home/ulrich/neurongithub/neuron/src/utils/json.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/json.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/http.c.o -c /home/ulrich/neurongithub/neuron/src/utils/http.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/http.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/http_handler.c.o -c /home/ulrich/neurongithub/neuron/src/utils/http_handler.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/http_handler.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/http_proxy.c.o -c /home/ulrich/neurongithub/neuron/src/utils/http_proxy.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/http_proxy.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/neu_jwt.c.o -c /home/ulrich/neurongithub/neuron/src/utils/neu_jwt.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/neu_jwt.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/base64.c.o -c /home/ulrich/neurongithub/neuron/src/utils/base64.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/base64.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/async_queue.c.o -c /home/ulrich/neurongithub/neuron/src/utils/async_queue.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/async_queue.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/mem_cache.c.o -c /home/ulrich/neurongithub/neuron/src/utils/mem_cache.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/mem_cache.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/utils/log.c.o -c /home/ulrich/neurongithub/neuron/src/utils/log.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/log.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/persist/persist.c.o -c /home/ulrich/neurongithub/neuron/src/persist/persist.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/persist/persist.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/persist/json/persist_json_plugin.c.o -c /home/ulrich/neurongithub/neuron/src/persist/json/persist_json_plugin.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/persist/json/persist_json_plugin.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_error.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_error.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_error.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_file.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_file.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_file.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_fn.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_fn.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_fn.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_global_config.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_global_config.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_global_config.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_group_config.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_group_config.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_group_config.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_log.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_log.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_log.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_login.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_login.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_login.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_mqtt.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_mqtt.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_mqtt.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_ndriver.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_ndriver.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_ndriver.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_node.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_node.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_node.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_plugin.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_plugin.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_plugin.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_rw.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_rw.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_rw.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_tag.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_tag.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_tag.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dneuron_base_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/neuron-base.dir/src/parser/neu_json_template.c.o -c /home/ulrich/neurongithub/neuron/src/parser/neu_json_template.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/parser/neu_json_template.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/main.c.o -c /home/ulrich/neurongithub/neuron/src/main.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/main.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/argparse.c.o -c /home/ulrich/neurongithub/neuron/src/argparse.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/argparse.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/daemon.c.o -c /home/ulrich/neurongithub/neuron/src/daemon.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/daemon.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/manager_internal.c.o -c /home/ulrich/neurongithub/neuron/src/core/manager_internal.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/manager_internal.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/manager.c.o -c /home/ulrich/neurongithub/neuron/src/core/manager.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/manager.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/subscribe.c.o -c /home/ulrich/neurongithub/neuron/src/core/subscribe.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/subscribe.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/plugin_manager.c.o -c /home/ulrich/neurongithub/neuron/src/core/plugin_manager.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/plugin_manager.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/node_manager.c.o -c /home/ulrich/neurongithub/neuron/src/core/node_manager.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/node_manager.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/template_manager.c.o -c /home/ulrich/neurongithub/neuron/src/core/template_manager.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/template_manager.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/core/storage.c.o -c /home/ulrich/neurongithub/neuron/src/core/storage.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/core/storage.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/adapter/storage.c.o -c /home/ulrich/neurongithub/neuron/src/adapter/storage.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/adapter/storage.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/adapter/adapter.c.o -c /home/ulrich/neurongithub/neuron/src/adapter/adapter.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/adapter/adapter.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/adapter/driver/cache.c.o -c /home/ulrich/neurongithub/neuron/src/adapter/driver/cache.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/adapter/driver/cache.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/src/adapter/driver/driver.c.o -c /home/ulrich/neurongithub/neuron/src/adapter/driver/driver.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/adapter/driver/driver.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/log_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/log_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/log_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/file_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/file_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/file_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/normal_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/normal_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/normal_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/rw_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/rw_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/rw_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/adapter_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/adapter_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/adapter_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/ndriver_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/ndriver_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/ndriver_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/datatag_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/datatag_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/datatag_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/global_config_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/global_config_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/global_config_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/group_config_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/group_config_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/group_config_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/plugin_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/plugin_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/plugin_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/template_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/template_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/template_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/version_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/version_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/version_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/rest.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/rest.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/rest.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/plugins  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/neuron.dir/plugins/restful/user.c.o -c /home/ulrich/neurongithub/neuron/plugins/restful/user.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/restful/user.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_rtu_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-rtu.dir/modbus_rtu.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_rtu.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_rtu.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_rtu_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-rtu.dir/modbus.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_rtu_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-rtu.dir/modbus_point.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_point.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_point.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_rtu_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-rtu.dir/modbus_req.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_req.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_req.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_rtu_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-rtu.dir/modbus_stack.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_stack.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_stack.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_tcp_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-tcp.dir/modbus_tcp.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_tcp.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_tcp.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_tcp_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-tcp.dir/modbus.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_tcp_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-tcp.dir/modbus_point.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_point.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_point.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_tcp_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-tcp.dir/modbus_req.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_req.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_req.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/modbus",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_modbus_tcp_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-modbus-tcp.dir/modbus_stack.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_stack.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_stack.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/mqtt",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_mqtt_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/plugins/mqtt  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-mqtt.dir/mqtt_config.c.o -c /home/ulrich/neurongithub/neuron/plugins/mqtt/mqtt_config.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/mqtt/mqtt_config.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/mqtt",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_mqtt_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/plugins/mqtt  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-mqtt.dir/mqtt_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/mqtt/mqtt_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/mqtt/mqtt_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/mqtt",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_mqtt_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/plugins/mqtt  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-mqtt.dir/mqtt_plugin.c.o -c /home/ulrich/neurongithub/neuron/plugins/mqtt/mqtt_plugin.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/mqtt/mqtt_plugin.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/ekuiper",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_ekuiper_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-ekuiper.dir/json_rw.c.o -c /home/ulrich/neurongithub/neuron/plugins/ekuiper/json_rw.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/ekuiper/json_rw.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/ekuiper",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_ekuiper_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-ekuiper.dir/read_write.c.o -c /home/ulrich/neurongithub/neuron/plugins/ekuiper/read_write.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/ekuiper/read_write.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/ekuiper",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_ekuiper_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-ekuiper.dir/plugin_ekuiper.c.o -c /home/ulrich/neurongithub/neuron/plugins/ekuiper/plugin_ekuiper.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/ekuiper/plugin_ekuiper.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/monitor",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_monitor_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-monitor.dir/monitor.c.o -c /home/ulrich/neurongithub/neuron/plugins/monitor/monitor.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/monitor/monitor.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/monitor",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_monitor_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-monitor.dir/monitor_config.c.o -c /home/ulrich/neurongithub/neuron/plugins/monitor/monitor_config.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/monitor/monitor_config.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/monitor",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_monitor_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-monitor.dir/metric_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/monitor/metric_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/monitor/metric_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/plugins/monitor",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -Dplugin_monitor_EXPORTS -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -fPIC -std=gnu99 -o CMakeFiles/plugin-monitor.dir/mqtt_handle.c.o -c /home/ulrich/neurongithub/neuron/plugins/monitor/mqtt_handle.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/monitor/mqtt_handle.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/simulator",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/modbus_simulator.dir/modbus_simulator.c.o -c /home/ulrich/neurongithub/neuron/simulator/modbus_simulator.c",
+  "file": "/home/ulrich/neurongithub/neuron/simulator/modbus_simulator.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/simulator",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/modbus_simulator.dir/modbus_s.c.o -c /home/ulrich/neurongithub/neuron/simulator/modbus_s.c",
+  "file": "/home/ulrich/neurongithub/neuron/simulator/modbus_s.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/c++ -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include -Wall -g -fsanitize=address -o CMakeFiles/json_test.dir/json_test.cc.o -c /home/ulrich/neurongithub/neuron/tests/json_test.cc",
+  "file": "/home/ulrich/neurongithub/neuron/tests/json_test.cc"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/c++ -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include -I/home/ulrich/neurongithub/neuron/plugins/restful -Wall -g -fsanitize=address -o CMakeFiles/http_test.dir/http_test.cc.o -c /home/ulrich/neurongithub/neuron/tests/http_test.cc",
+  "file": "/home/ulrich/neurongithub/neuron/tests/http_test.cc"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include -I/home/ulrich/neurongithub/neuron/plugins/restful  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/http_test.dir/__/src/utils/http.c.o -c /home/ulrich/neurongithub/neuron/src/utils/http.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/http.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/c++ -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include -I/home/ulrich/neurongithub/neuron/src/utils -Wall -g -fsanitize=address -o CMakeFiles/jwt_test.dir/jwt_test.cc.o -c /home/ulrich/neurongithub/neuron/tests/jwt_test.cc",
+  "file": "/home/ulrich/neurongithub/neuron/tests/jwt_test.cc"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/c++ -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include -Wall -g -fsanitize=address -o CMakeFiles/base64_test.dir/base64_test.cc.o -c /home/ulrich/neurongithub/neuron/tests/base64_test.cc",
+  "file": "/home/ulrich/neurongithub/neuron/tests/base64_test.cc"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/base64_test.dir/__/src/utils/base64.c.o -c /home/ulrich/neurongithub/neuron/src/utils/base64.c",
+  "file": "/home/ulrich/neurongithub/neuron/src/utils/base64.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/c++ -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/src -I/home/ulrich/neurongithub/neuron/include -Wall -g -fsanitize=address -o CMakeFiles/tag_sort_test.dir/tag_sort_test.cc.o -c /home/ulrich/neurongithub/neuron/tests/tag_sort_test.cc",
+  "file": "/home/ulrich/neurongithub/neuron/tests/tag_sort_test.cc"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/c++ -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/plugins/modbus -Wall -g -fsanitize=address -o CMakeFiles/modbus_test.dir/modbus_test.cc.o -c /home/ulrich/neurongithub/neuron/tests/modbus_test.cc",
+  "file": "/home/ulrich/neurongithub/neuron/tests/modbus_test.cc"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/plugins/modbus  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/modbus_test.dir/__/plugins/modbus/modbus.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus.c"
+},
+{
+  "directory": "/home/ulrich/neurongithub/neuron/build/tests",
+  "command": "/usr/bin/cc -DNEU_PLATFORM_LINUX -I/home/ulrich/neurongithub/neuron/include/neuron -I/home/ulrich/neurongithub/neuron/plugins/modbus  -Werror -Wall -Wextra -g  -Werror -Wall -Wextra -g -fsanitize=address -std=gnu99 -o CMakeFiles/modbus_test.dir/__/plugins/modbus/modbus_point.c.o -c /home/ulrich/neurongithub/neuron/plugins/modbus/modbus_point.c",
+  "file": "/home/ulrich/neurongithub/neuron/plugins/modbus/modbus_point.c"
+}
+]

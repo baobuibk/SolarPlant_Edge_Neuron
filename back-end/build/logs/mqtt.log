@@ -1,0 +1,17 @@
+2024-06-04 23:00:02 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-06-05 16:26:59 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 12:08:09 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:19:42 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:20:53 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:22:43 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:22:51 [NOTICE] mqtt_plugin.c:89 uninitialize plugin `MQTT` success
+2024-07-23 13:23:08 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:23:56 [NOTICE] mqtt_plugin.c:89 uninitialize plugin `MQTT` success
+2024-07-23 13:25:50 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:34:42 [NOTICE] mqtt_plugin.c:89 uninitialize plugin `MQTT` success
+2024-07-23 13:34:58 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 13:36:50 [NOTICE] mqtt_plugin.c:89 uninitialize plugin `MQTT` success
+2024-07-23 13:38:30 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 14:08:08 [NOTICE] mqtt_plugin.c:89 uninitialize plugin `MQTT` success
+2024-07-23 14:09:16 [NOTICE] mqtt_plugin.c:63 initialize plugin `MQTT` success
+2024-07-23 14:10:11 [NOTICE] mqtt_plugin.c:89 uninitialize plugin `MQTT` success

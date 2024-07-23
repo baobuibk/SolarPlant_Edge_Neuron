@@ -1,0 +1,5 @@
+if(EXISTS "/home/ulrich/neurongithub/neuron/build/tests/tag_sort_test[1]_tests.cmake")
+  include("/home/ulrich/neurongithub/neuron/build/tests/tag_sort_test[1]_tests.cmake")
+else()
+  add_test(tag_sort_test_NOT_BUILT tag_sort_test_NOT_BUILT)
+endif()

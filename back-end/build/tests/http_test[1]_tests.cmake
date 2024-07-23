@@ -1,0 +1,5 @@
+add_test( HTTPTest.http_get_param /home/ulrich/neurongithub/neuron/build/tests/http_test [==[--gtest_filter=HTTPTest.http_get_param]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HTTPTest.http_get_param PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( HTTPTest.http_get_param_str /home/ulrich/neurongithub/neuron/build/tests/http_test [==[--gtest_filter=HTTPTest.http_get_param_str]==] --gtest_also_run_disabled_tests)
+set_tests_properties( HTTPTest.http_get_param_str PROPERTIES WORKING_DIRECTORY /home/ulrich/neurongithub/neuron/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( http_test_TESTS HTTPTest.http_get_param HTTPTest.http_get_param_str)

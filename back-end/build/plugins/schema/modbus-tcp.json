@@ -1,0 +1,172 @@
+{
+	"tag_regex": [
+		{
+			"type": 3,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 4,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 5,
+			"regex": "^[0-9]+![3-4][0-9]+(#BB|#BL|#LL|#LB|)$"
+		},
+		{
+			"type": 6,
+			"regex": "^[0-9]+![3-4][0-9]+(#BB|#BL|#LL|#LB|)$"
+		},
+		{
+			"type": 7,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 8,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 9,
+			"regex": "^[0-9]+![3-4][0-9]+(#BB|#BL|#LL|#LB|)$"
+		},
+		{
+			"type": 10,
+			"regex": "^[0-9]+![3-4][0-9]+(#B|#L|)$"
+		},
+		{
+			"type": 11,
+			"regex": "^[0-9]+!([0-1][0-9]+|[3-4][0-9]+\\.([0-9]|[0-1][0-5]))$"
+		},
+		{
+			"type": 13,
+			"regex": "^[0-9]+![3-4][0-9]+\\.[0-9]+(H|L|)$"
+		},
+		{
+			"type": 14,
+			"regex": "^[0-9]+![3-4][0-9]+\\.[0-9]+$"
+		}
+	],
+	"group_interval": 1000,
+	"transport_mode": {
+		"name": "Transport Mode",
+		"name_zh": "Phương thức truyền",
+		"description": "TCP transfer or UDP transfer",
+		"description_zh": "TCP hoặc UDP",
+		"attribute": "required",
+		"type": "map",
+		"default": 0,
+		"valid": {
+			"map": [
+				{
+					"key": "TCP",
+					"value": 0
+				},
+				{
+					"key": "UDP",
+					"value": 1
+				}
+			]
+		}
+	},
+	"connection_mode": {
+		"name": "Connection Mode",
+		"name_zh": "Kiểu kết nối",
+		"description": "As the client, or as the server",
+		"description_zh": "Dạng máy khách hoặc dạng máy chủ",
+		"attribute": "required",
+		"type": "map",
+		"default": 0,
+		"valid": {
+			"map": [
+				{
+					"key": "Client",
+					"value": 0
+				},
+				{
+					"key": "Server",
+					"value": 1
+				}
+			]
+		},
+		"condition": {
+			"field": "transport_mode",
+			"value": 0
+		}
+	},
+	"max_retries": {
+		"name": "Maximum Retry Times",
+		"name_zh": "Số lần truy cập lại tối đa",
+		"description": "The maximum number of retries after a failed attempt to send a read command",
+		"description_zh": "Số lần truy cập lại tối đa khi mà thất bại trong việc gửi lệnh đầu",
+		"attribute": "required",
+		"type": "int",
+		"default": 0,
+		"valid": {
+			"min": 0,
+			"max": 3
+		}
+	},
+	"retry_interval": {
+		"name": "Retry Interval",
+		"name_zh": "Khoảng thời gian thử lại",
+		"description": "Resend reading instruction interval(ms) after a failed attempt to send a read command",
+		"description_zh": "Gửi lại lệnh sau một khoảng thời gian bị lỗi",
+		"attribute": "required",
+		"type": "int",
+		"default": 0,
+		"valid": {
+			"min": 0,
+			"max": 10000
+		}
+	},
+	"interval": {
+		"name": "Send Interval",
+		"name_zh": "Khoảng thời gian Request",
+		"description": "Send reading instruction interval(ms)",
+		"description_zh": "(ms) Giữa các lần Request với nhau",
+		"attribute": "required",
+		"type": "int",
+		"default": 20,
+		"valid": {
+			"min": 0,
+			"max": 3000
+		}
+	},
+	"host": {
+		"name": "IP Address",
+		"name_zh": "Địa chỉ IP",
+		"description": "Local IP in server mode, remote device IP in client mode",
+		"description_zh": "Local IP khi đang ở máy chủ，RemoteDeviceIP khi đang ở máy khách",
+		"attribute": "required",
+		"type": "string",
+		"valid": {
+			"regex": "/^((2[0-4]\\d|25[0-5]|[01]?\\d\\d?)\\.){3}(2[0-4]\\d|25[0-5]|[01]?\\d\\d?)$/",
+			"length": 30
+		}
+	},
+	"port": {
+		"name": "Port",
+		"name_zh": "Cổng",
+		"description": "Local port in server mode, remote device port in client mode",
+		"description_zh": "Cổng Local khi ở máy chủ, Cổng Remote khi ở máy khách",
+		"attribute": "required",
+		"type": "int",
+		"default": 502,
+		"valid": {
+			"min": 1,
+			"max": 65535
+		}
+	},
+	"timeout": {
+		"name": "Connection Timeout",
+		"name_zh": "Thời gian quá hạn kết nối",
+		"description": "Connection timeout(ms)",
+		"description_zh": "(ms) Thời gian chờ tối đa",
+		"attribute": "required",
+		"type": "int",
+		"default": 3000,
+		"valid": {
+			"min": 1000,
+			"max": 65535
+		}
+	}
+}

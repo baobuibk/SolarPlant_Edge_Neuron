@@ -1,0 +1,8 @@
+2024-07-23 13:38:30 [NOTICE] monitor.c:300 Initialize plugin: Monitor
+2024-07-23 13:38:30 [NOTICE] monitor.c:428 mqtt client is NULL
+2024-07-23 13:38:30 [NOTICE] monitor.c:448 start plugin `Monitor` success
+2024-07-23 14:08:08 [NOTICE] monitor.c:310 Uninitialize plugin: Monitor
+2024-07-23 14:09:16 [NOTICE] monitor.c:300 Initialize plugin: Monitor
+2024-07-23 14:09:16 [NOTICE] monitor.c:428 mqtt client is NULL
+2024-07-23 14:09:16 [NOTICE] monitor.c:448 start plugin `Monitor` success
+2024-07-23 14:10:11 [NOTICE] monitor.c:310 Uninitialize plugin: Monitor
